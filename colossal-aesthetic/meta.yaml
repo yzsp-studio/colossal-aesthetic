@@ -1,0 +1,19 @@
+display-name-zh: 巨物美学风格锁
+version: 1.0.0
+tag-en: "Colossal / Monumental Aesthetics"
+tag-cn: "巨物美学 / 风格锁定"
+complete-tags-en:
+  - "Subject-agnostic Style Lock / Visual Consistency"
+  - "AI Image Prompts / AI Video Prompts (paste-ready)"
+  - "Pixel-level Style Verification"
+complete-tags-cn:
+  - "题材无关的风格锁 / 系列视觉一致性"
+  - "AI 制图提示词 / AI 视频提示词（一次成稿）"
+  - "像素级风格校验"
+summary-en: "Locks one colossal-scale aesthetic onto any subject and outputs paste-ready image and video prompts, plus a pixel-level checker that measures whether the style actually held."
+summary-cn: "把同一套巨物美学锁到任意题材上，直接产出可粘贴的制图与视频提示词，并附像素级校验器来测量风格究竟锁住没有。"
+desc-en: "A local Skill for colossal-scale (monumental) aesthetics. The lock was derived by measuring 20 reference images and 4 reference videos frame by frame and pixel by pixel (1866 real frames): luminance, saturation, high-saturation fraction, black and blown-highlight limits, warm/cool coexistence, shot lengths and cutting rhythm, and aspect ratios. It separates three layers that are usually conflated - a subject-agnostic core lock of ten invariants (scale anchor, shelter logic, camera discipline, translucency and subsurface scattering, color boundaries, negative space, material scale-up, framing, mood boundaries), a verified sub-style library (bright pastel, cold rain, epic xianxia, solemn cloud-palace architecture), and the subject itself, which stays entirely free. Because the core lock contains no subject words, the same style applies to plants, architecture, machinery, creatures, props, fabric or terrain. It outputs finished image and video prompts for mainstream models and includes a zero-dependency pixel checker that reports which of the eight measurable thresholds a generated image passes or fails."
+desc-cn: "用于巨物（宏大尺度）美学的本地 Skill。风格锁由 20 张参考图与 4 个参考视频逐帧逐像素实测得出（1866 真实帧）：明度、饱和度、高饱和像素占比、纯黑与过曝上限、冷暖共存关系、镜头长度与剪辑节奏、画幅比例。它把通常被混为一谈的三层彻底分开——题材无关的十条核心锁（尺度标尺、庇护逻辑、机位克制、透光与次表面散射、色彩边界、负空间、材质等比放大、构图、情绪边界），加上已验证的子风格库（明亮粉彩、清冷雨中、仙侠宏大、云海仙宫），以及完全开放的题材层。由于核心锁内不含任何题材词，同一套风格可套用于植物、建筑、机械、生物、道具、织物或地貌。输出面向主流模型的图像与视频成品提示词，并附零依赖的像素校验器，报告出图在八项可测阈值上的通过与不通过。"
+author-en: "User Local Skill"
+author-cn: "用户本地 Skill"
+source: local
